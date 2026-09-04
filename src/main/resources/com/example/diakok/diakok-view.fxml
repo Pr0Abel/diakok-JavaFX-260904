@@ -15,7 +15,7 @@
             <children>
                <ImageView fitHeight="119.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../../../diak.png" />
+                     <Image url="@diak.png" />
                   </image>
                   <VBox.margin>
                      <Insets bottom="10.0" />

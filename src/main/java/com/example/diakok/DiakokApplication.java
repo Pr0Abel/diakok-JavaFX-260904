@@ -15,7 +15,7 @@ public class DiakokApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Diákok");
         stage.setScene(scene);
-        Image windowIconImage = new Image("file:diak.png");
+        Image windowIconImage = new Image("file:icons/diak.png");
         stage.getIcons().add(windowIconImage);
         stage.show();
     }
