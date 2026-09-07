@@ -20,4 +20,13 @@ public class DiakokController {
     public void  initialize(URL url, ResourceBundle resourceBundle) {
 
     }
+
+    ArrayList<diakok> adatok = new ArrayList<>();
+
+    public void initialize() {
+        try (BufferedReader br = new BufferedReader(new FileReader("diakok.csv"))) {
+            String sor = "";
+            while ((sor = br.readLine()) != null) {
+                adatok.add(new diakok(sor));
+            }
 }
